@@ -34,7 +34,9 @@
 //     }
 //   }
 
-// A parte da condicional do if, me pegou um tempo, fiquei tentando coisas como: name == "", ou name === "", name == void, mas nada funcionou, então eu checando os outputs, lá falava que o resultdo estava dando undefined, foi quando clareou a cabeça, pois undefined é valor indefinido, ele "não existe", o que seria que nosso contexto pede:
+// A parte da condicional do if, me pegou um tempo, fiquei tentando coisas como: name == "", 
+// ou name === "", name == void, mas nada funcionou, então eu checando os outputs, lá falava que o resultado estava dando undefined,
+// foi quando clareou a cabeça, pois undefined é valor indefinido, ele "não existe", o que seria que nosso contexto pede:
 
 // export function twoFer(name:string) {
 //     if (name == undefined) {
