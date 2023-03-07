@@ -23,3 +23,24 @@
     //    }
 
     // console.log([3, 6, 8, 2].filter(fiveAndGreaterOnly));
+
+
+    // 2) Given an array of numbers, return a new array that only includes the even numbers
+
+    // function evensOnly(arr) {
+        // your code here
+    //   }
+      // test
+    //   console.log(evensOnly([3, 6, 8, 2]));
+      /// [6, 8, 2]
+
+      //  results >>>>
+
+      
+    //   function evensOnly(arr) {
+    //     if (arr % 2 === 0) {
+    //       return true;
+    //     }
+    // }
+    
+    // console.log([3, 6, 8, 2].filter(evensOnly));
