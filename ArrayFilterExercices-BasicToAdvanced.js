@@ -71,3 +71,18 @@
 //   //[ { name: 'Angelina Jolie', member: true },
 //   //  { name: 'Paris Hilton', member: true },
 //   //  { name: 'Bob Ziroll', member: true } ]
+
+// x) Extra:
+// How to use map to get an propery of all itens from a object inside an array
+
+// const enterprises = [
+//     { name:'Samsung',marketValue: 50, CEO: 'Kim Hyun Suk', anoDeCriacao: 1938},
+//     { name: 'Microsoft',marketValue: 415, CEO: 'Satya Nadella', anoDeCriacao: 1975 },
+//     { name: 'Intel',marketValue: 117, CEO:'Brian Krzanich', anoDeCriacao: 1968},
+//     { name: 'Facebook',marketValue: 383, CEO:'Mark Zuckerberg', anoDeCriacao: 2004},
+//     { name: 'Spotify',marketValue: 30, CEO:'Daniel Ek', anoDeCriacao: 2006  },
+//     {name: 'Apple', marketValue: 845, CEO: 'Tim Cook', anoDeCriacao: 1976}
+// ];
+
+// const names = enterprises.map(x => x.name)
+// console.log(names)
