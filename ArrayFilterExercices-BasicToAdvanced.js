@@ -56,21 +56,25 @@
 
 // 4) Given an array of people objects, return a new array that has filtered out all those who don't belong to the club.
 
-// function peopleWhoBelongToTheIlluminati(arr){
-//     // your code here
-//   }
-//   // test
-//   console.log(peopleWhoBelongToTheIlluminati([
-//       { name: "Angelina Jolie", member: true },
-//       { name: "Eric Jones", member: false },
-//       { name: "Paris Hilton", member: true },
-//       { name: "Kayne West", member: false },
-//       { name: "Bob Ziroll", member: true }
-//   ]));
-//   // =>
-//   //[ { name: 'Angelina Jolie', member: true },
-//   //  { name: 'Paris Hilton', member: true },
-//   //  { name: 'Bob Ziroll', member: true } ]
+// function peopleWhoBelongToTheIlluminati(arr) {
+//   const dontBelongToTheClub = arr.filter((obj) => obj.member === false);
+//   return dontBelongToTheClub;
+// }
+
+// console.log(
+//   peopleWhoBelongToTheIlluminati([
+//     { name: "Angelina Jolie", member: true },
+//     { name: "Eric Jones", member: false },
+//     { name: "Paris Hilton", member: true },
+//     { name: "Kayne West", member: false },
+//     { name: "Bob Ziroll", member: true },
+//   ])
+// );
+
+// //[
+// //     { name: 'Eric Jones', member: false },
+// //     { name: 'Kayne West', member: false }
+// //   ]
 
 // x) Extra:
 // How to use map to get an propery of all itens from a object inside an array
