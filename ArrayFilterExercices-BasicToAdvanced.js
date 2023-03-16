@@ -1,5 +1,6 @@
 // https://coursework.vschool.io/array-filter-exercises/
 
+
 // 1) Given an array of numbers, return a new array that has only the numbers that are 5 or greater.
 
 // function fiveAndGreaterOnly(arr) {
@@ -24,6 +25,8 @@
 
 // console.log([3, 6, 8, 2].filter(fiveAndGreaterOnly));
 
+
+
 // 2) Given an array of numbers, return a new array that only includes the even numbers
 
 // function evensOnly(arr) {
@@ -43,6 +46,8 @@
 
 // console.log([3, 6, 8, 2].filter(evensOnly));
 
+
+
 // 3) Given an array of strings, return a new array that only includes those that are 5 characters or fewer in length
 
 // function fiveCharactersOrFewerOnly(arr) {
@@ -53,6 +58,8 @@
 // console.log(fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"]));
 
 // // ["by", "dog", "wolf", "eaten"]
+
+
 
 // 4) Given an array of people objects, return a new array that has filtered out all those who don't belong to the club.
 
@@ -77,6 +84,8 @@
 // //     { name: 'Kayne West', member: false }
 // //   ]
 
+
+
 // x) Extra:
 // How to use map to get an propery of all itens from a object inside an array
 
@@ -91,6 +100,8 @@
 
 // const names = enterprises.map(x => x.name)
 // console.log(names)
+
+
 
 // 5) Make a filtered list of all the people who are old enough to see The Matrix (older than 18)
 
@@ -110,3 +121,8 @@
 //   Result:
 //   //[ { name: 'Angelina Jolie', age: 80 },
 //   //  { name: 'Bob Ziroll', age: 100 } ]
+
+
+
+// Well... that's it, thank you very much for seeing this.
+// For the Max in the future: I hope that this document save you some day :D 
